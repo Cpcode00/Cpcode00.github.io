@@ -1,19 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Christian Perrella's Personal Website</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
     <meta
-      name="description"
-      content="Christian Perrella"
-    />
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-    <!-- Always include this line of code!!! -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS  ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <title>Christian Perrella</title>
+    <link rel="shortcut icon" href="favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics
+   ================================================== -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-LFSK6W596W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-LFSK6W596W");
+    </script>
   </head>
   <body>
-    <p>Hello world!</p>
+    <!-- Header -->
+    <header id="home">
+      <nav id="nav-wrap">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+        <ul id="nav" class="nav">
+          <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+          <li><a class="smoothscroll" href="#resume">Resume</a></li>
+          <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+          <li><a class="smoothscroll" href="#contact">Contact</a></li>
+        </ul>
+
+        <hr />
+
+        <div class="head_banner">
+          <div class="banner__content">
+            <div class="banner__text">
+              Hi there, thanks for visiting my website! I'd love to <a href="https://www.linkedin.com/in/christian-perrella-963707166/" target="_blank">connect</a> with you :)
+            </div>
+            <button class="banner__close">
+              <span class="material-icons">close</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row banner">
+        <div class="banner-text">
+          <h1 class="responsive-headline">Christian Perrella</h1>
+          <h2 style="color: #ffffff">Software Engineer</h2>
+          <h3><span>Background pc: Teamwork by AI</span></h3>
+          <hr />
+          <ul class="social">
+            <li><a href="https://github.com/Cpcode00"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/christian-perrella-963707166/"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="mailto:christian.perrella@outlook.com"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="scrolldown">
+        <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+    </header>
+
+    <!-- About section-->
+    <section id="about">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>About</h5>
+          <h1>Let me introduce myself.</h1>
+          <div class="intro-info">
+            <img src="images/CP_con_sfondo_bianco.jpg" alt="Profile Picture">
+            <p class="lead">I'm a computer engineer interested in developing software. I graduated at University of Naples Federico II in Computer Engineering, and I'm currently pursuing a Master's degree in Engineering in Computer Science at University of Rome La Sapienza. My primary interests are Software Engineering, Artificial Intelligence, and Data Management.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row about-content">
+        <div class="col-six tab-full">
+          <h3>Profile</h3>
+          <p>I'm currently looking for a new software engineering/product owner/startup opportunities. If you think I'm a good fit, please contact me via <a href="mailto:christian.perrella@outlook.com">christian.perrella@outlook.com</a>.</p>
+
+          <ul class="info-list">
+            <li>
+              <strong>Fullname:</strong>
+              <span>Christian Perrella</span>
+            </li>
+            <li>
+              <strong>Birth Date:</strong>
+              <span>February 21, 2000</span>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <span>christian.perrella@outlook.com</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-six tab-full">
+          <h3>Skills</h3>
+          <p>I'm an independent teamworker, strong in research and coding. My areas of expertise are Sofware Development Engineering, Artificial Intelligence and Machine Learning. Below are highlights of my technical skills:</p>
+          <ul class="skill-bars">
+            <li>
+              <div class="progress percent100"><span>100%</span></div>
+              <strong>Java</strong>
+            </li>
+            <li>
+              <div class="progress percent100"><span>100%</span></div>
+              <strong>C/C++</strong>
+            </li>
+            <li>
+              <div class="progress percent90"><span>90%</span></div>
+              <strong>Python</strong>
+            </li>
+            <li>
+              <div class="progress percent90"><span>90%</span></div>
+              <strong>HTML/CSS/JS</strong>
+            </li>
+            <li>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>Adobe Suite (PS, AI, ...)</strong>
+            </li>
+            <li>
+              <div class="progress percent80"><span>80%</span></div>
+              <strong>MS Office Suite (Word, ...)</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row button-section">
+        <div class="col-twelve">
+          <a href="#contact" title="Hire me" class="button stroke smoothscroll">Hire Me</a>
+          <a href="files/CV_CHRISTIAN.PERRELLA_2024_eng.pdf" title="Download CV" class="button button-primary">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section  ============================================== -->
+    <section id="resume">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Resume</h5>
+          <h1>More of my credentials.</h1>
+          <p class="lead">Here is my education.</p>
+        </div>
+      </div>
+
+      <div class="row resume-timeline">
+        <div class="col-twelve resume-header">
+          <h2>Background Education</h2>
+        </div>
+        <div class="col-twelve">
+          <div class="timeline-wrap">
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-pencil"></i>
+              </div>
+              <div class="timeline-header">
+                <h3>Master's Degree</h3>
+                <p>Sept. 2022 - July 2025</p>
+              </div>
+              <div class="timeline-content">
+                <h4>University of Rome La Sapienza - Engineering in Computer Science</h4>
+                <p>LM-32 - 2nd level degree in Computer engineering</p>
+              </div>
+            </div>
+
+            <div class="timeline-block">
+              <div class="timeline-ico">
+                <i class="fa fa-pencil"></i>
+              </div>
+              <div class="timeline-header">
+                <h3>Bachelor's Degree</h3>
+                <p>Sept. 2019 - December 2022</p>
+              </div>
+              <div class="timeline-content">
+                <h4>University of Naples Federico II - Computer Engineering</h4>
+                <p>L-8 - 1st level degree in Information technology</p>
+                <p>Dissertation/thesis title: Overview of WLAN networks and
+                  evaluation of performance using simulations on ns3 |
+                  Dissertation/thesis subject: Reti di Calcolatori | Thesis supervisor:
+                  Stefano Avallone</p>
+                <p>Final degree mark: 106/110</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <div class="row section-intro">
+        <div class="col-twelve">
+          <h5>Projects</h5>
+          <h1>Check out my projects.</h1>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="twelve columns collapsed">
+
+          <!-- portfolio-wrapper -->
+          <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-01" title="">
+                  <img alt="" src="images/portfolio/Company-ticket-office.jpg">
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Company ticket office</h5>
+                      <p>Software application</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-02" title="">
+                  <img alt="" src="images/portfolio/Object-detector-using-Keras-RetinaNet.jpg">
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Object detector using Keras RetinaNet</h5>
+                      <p>Computer Vision application</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-03" title="">
+                  <img alt="" src="images/portfolio/Meal-delivery-website.jpg">
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Meal delivery website</h5>
+                      <p>Web Development</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+
+            <div class="columns portfolio-item">
+              <div class="item-wrap">
+                <a href="#modal-04" title="">
+                  <img alt="" src="images/portfolio/Personal-Website.jpg">
+                  <div class="overlay">
+                    <div class="portfolio-item-meta">
+                      <h5>Personal Website</h5>
+                      <p>Web Development</p>
+                    </div>
+                  </div>
+                  <div class="link-icon"><i class="icon-plus"></i></div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+
+        <!-- Modal Popup ------------------------------------>
+        <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-Company-ticket-office.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Company ticket office</h4>
+			      <p>Development of a Java application for the office of a company for the buying of tickets following the techniques and methodologies of Software Engineering, starting from requirements elicitation till verification and validation.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Java development, JDBC</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Cpcode00/ProgettoIS" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+        <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-Object-detector-using-Keras-RetinaNet.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Object detector using Keras RetinaNet</h4>
+			      <p>The project concerns the creation of a Text Detector using a Convolutional Neural Network. Specifically, after the training phase, given the CNN (Convolutional Neural Network) an image, a box containing text is obtained. The project was completed successfully, and the difficulties encountered were related to the fact that there were only 500 images in the MSRA-TD500 dataset.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Python, Neural Networks</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Cpcode00/ProgettoESM" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+        <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-Meal-delivery-website.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Meal delivery website</h4>
+			      <p>Omnifood provide the smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Front-end Development, HTML, CSS, JavaScript</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Cpcode00/Restaurant-Website" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+        <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-Personal-Website.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Personal website</h4>
+			      <p>Created own personal website for showing resume.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Web Development, HTML, CSS, JavaScript</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/Cpcode00/Cpcode00.github.io" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+      </div>
+        
+    </section>
+
+    <!-- contact ========================================= -->
+    <section id="contact">
+
+      <div class="row section-intro">
+        <div class="col-twelve">
+
+           <h5>Contact</h5>
+           <h1>I'd Love To Connect With You.</h1>
+
+           <p class="lead">Let me get to know more about you.</p>
+
+        </div> 
+      </div> <!-- /section-intro -->
+
+      <div class="row contact-info">
+
+        <div class="col-four tab-full">
+
+          <div class="icon">
+             <i class="fa fa-location-arrow"></i>
+          </div>
+
+          <h5>Where to find me</h5>
+
+          <p>
+          Viale XXI Aprile<br>
+          Rome, RM<br>
+          00162 IT
+          </p>
+
+        </div>
+
+        <div class="col-four tab-full collapse">
+
+          <div class="icon">
+             <i class="icon-mail"></i>
+          </div>
+
+          <h5>Email Me At</h5>
+
+          <a href="mailto:christian.perrella@outlook.com">christian.perrella@outlook.com</a><br>
+
+        </div>
+      
+        <div class="col-four tab-full collapse">
+
+          <div class="icon">
+             <i class="fa fa-linkedin"></i>
+          </div>
+
+          <h5>Let's Connect</h5>
+          <a href="https://www.linkedin.com/in/christian-perrella-963707166/" target="_blank">LinkedIn Profile</a>
+
+        </div>
+       
+      </div> <!-- /contact-info -->
+    
+    </section> <!-- /contact -->
+
+
+     <!-- footer ====================================== -->
+     <footer>
+
+       <div class="row">
+
+        <div class="twelve columns">
+
+          <ul class="copyright">
+            <li>Edit by Christian Perrella</li>
+            <li>&copy; Copyright 2024</li>  
+          </ul>
+
+        </div>
+
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+     </footer> <!-- Footer End-->
+
+  <!-- Java Script  ================================== -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+  <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/waypoints.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/magnific-popup.js"></script>
+  <script src="js/init.js"></script>
+
   </body>
 </html>
